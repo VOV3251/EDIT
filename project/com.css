@@ -1,0 +1,72 @@
+#list{
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style-type: none;
+	line-height: 3;
+	width:100%;
+	background-image: linear-gradient(#000080,#0000FF);
+	margin-top: -0.5%;
+	color: white;
+	font-family: Phetsarath OT;
+}
+#list li{
+	padding: 0;
+	float: left;
+	width: 10em;
+}
+#list ul{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	left: -90%;
+	width: 10em;
+	list-style-type: none;
+	/*background-image: linear-gradient(#F2C425 ,#DE8C47 );*/
+}
+#list a{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	width: 10em;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#list li:hover ul{left: -90%;}
+#list li:hover ul{left: auto;}
+#list li:hover ul{background: #6495ED ;}
+.footer{
+	background-color: #000080;
+	font-family: Phetsarath OT;
+	color: white;
+	text-align: center;
+}
+.colum{
+	width: 50%;
+	background: blue;
+	color: white;
+}
+.font{
+	font-family: phetsarath OT;
+}
+.SAVE{
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.table1 {width: 50%;}
+.p1{width: 10%}
+.p2{width: 10%}
+.p3{width: 10%}
+.p4{width: 10%}
+.p5{width: 10%}
+.p6{width: 10%}
